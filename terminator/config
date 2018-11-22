@@ -1,0 +1,113 @@
+[global_config]
+  geometry_hinting = False
+  handle_size = 1
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+  [[nice1]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 6e18ffc2-da1e-49fa-a4ff-8989924886ed
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:25
+      size = 1920, 1135
+      title = yo@DESKTOP-P8RU9KI: /mnt/c/Users/yo/Documents
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 958
+      ratio = 0.49921875
+      type = HPaned
+    [[[child10]]]
+      order = 0
+      parent = child9
+      position = 283
+      ratio = 0.5
+      type = VPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 567
+      ratio = 0.5
+      type = VPaned
+    [[[child3]]]
+      order = 0
+      parent = child2
+      position = 479
+      ratio = 0.500521920668
+      type = HPaned
+    [[[child6]]]
+      order = 1
+      parent = child2
+      position = 283
+      ratio = 0.5
+      type = VPaned
+    [[[child9]]]
+      order = 1
+      parent = child1
+      position = 567
+      ratio = 0.5
+      type = VPaned
+    [[[terminal11]]]
+      order = 0
+      parent = child10
+      profile = default
+      type = Terminal
+      uuid = 58fc02b3-75a0-4d38-8d65-f7ede4d707e6
+    [[[terminal12]]]
+      order = 1
+      parent = child10
+      profile = default
+      type = Terminal
+      uuid = 004d2779-a624-43a4-bbcf-2712d5e66d7f
+    [[[terminal13]]]
+      order = 1
+      parent = child9
+      profile = default
+      type = Terminal
+      uuid = 576fe38a-c05a-49c6-bead-8ae4bdc26bcd
+    [[[terminal4]]]
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 87426769-7158-4f2a-8a1d-13ee35d522c3
+    [[[terminal5]]]
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 83205c72-8b0e-4217-a3f6-9ff73fac4c40
+    [[[terminal7]]]
+      order = 0
+      parent = child6
+      profile = default
+      type = Terminal
+      uuid = 6e18ffc2-da1e-49fa-a4ff-8989924886ed
+    [[[terminal8]]]
+      order = 1
+      parent = child6
+      profile = default
+      type = Terminal
+      uuid = 33ed6b9a-885f-415d-be9f-7d1d68035c32
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.93
+    background_image = None
+    background_type = transparent
+    font = DejaVu Sans Mono for Powerline 14
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
